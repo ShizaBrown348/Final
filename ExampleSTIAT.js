@@ -13,9 +13,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/ShizaBrown348/Final@main/qstia6.j
     		    	{image : 'black1.jpg'}, 
     			{image : 'black2.jpg'}, 
     			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    			{image : 'black4.jpg'} 
+    		//	{image : 'black5.jpg'}, 
+    		//	{image : 'black6.jpg'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -30,12 +30,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/ShizaBrown348/Final@main/qstia6.j
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
-				{word: 'Pain'},
-				{word: 'Poison'},
-				{word: 'Grief'}
+			{word: 'Frosty'},
+				{word: 'Impolite'},
+				{word: 'Dishonest'},
+				{word: 'Fraudulent'}
+		//		{word: 'Poison'},
+		//		{word: 'Grief'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -49,19 +49,19 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/ShizaBrown348/Final@main/qstia6.j
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Paradise'},
-				{word: 'Pleasure'},
-				{word: 'Cheer'},
-				{word: 'Wonderful'},
-				{word: 'Splendid'},
-				{word: 'Love'}
+				{word: 'Trust'},
+				{word: 'Politness'},
+				{word: 'Compassionate'},
+				{word: 'Caring'}
+		//		{word: 'Splendid'},
+		//		{word: 'Love'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://baranan.github.io/minno-tasks/images/'
+    image : 'https://github.com/ShizaBrown348/Final/'
   }}
   );
   });
